@@ -1,0 +1,375 @@
+-- Create database-----------------------------------------------------------------------
+
+CREATE DATABASE IF NOT EXISTS walmartsales;
+
+
+-- Create table-------------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS sales (
+Invoice_Id VARCHAR(30) NOT NULL PRIMARY KEY,
+Branch VARCHAR(5) NOT NULL,
+City VARCHAR(30) NOT NULL,
+Customer_Type VARCHAR (30) NOT NULL,
+Gender VARCHAR(10) NOT NULL,
+Product_Line VARCHAR(100) NOT NULL,
+Unit_Price DECIMAL(10, 2) NOT NULL,
+Quantity INT NOT NULL,
+Vat FLOAT(6, 4) NOT NULL,
+Total DECIMAL(12, 2) NOT NULL,
+Date DATE NOT NULL,
+Time TIME NOT NULL,
+Payment_Method VARCHAR (15) NOT NULL,
+Cogs DECIMAL(10, 2) NOT NULL,
+Gross_Margin_Percentage FLOAT(11, 9),
+Gross_Income DECIMAL(12, 4) NOT NULL,
+Rating FLOAT(2, 1) NOT NULL
+);
+
+-- Import data into the table created using the import wizard----------------------------------
+
+-- --------------------------------------------------------------------------------------------
+-- ------DATA ENGINEERING----------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+
+-- -----ADD NEW COLUMN FOR THE TIME_OF_DAY------------------------------------------------------
+ALTER TABLE sales
+ADD COLUMN Time_of_Day VARCHAR (20);
+
+-- POPULATE THE NEW COLUMN CREATED UISNG THE CODE BELOW------------------------------------------
+
+UPDATE sales
+SET Time_of_Day = (
+CASE 
+	WHEN Time BETWEEN "00:00:00" AND "12:00:00" THEN "Morning"
+	WHEN Time BETWEEN "12:01:00" AND "16:00:00" THEN "Afternoon"
+	ELSE "Eveninig"
+END
+);
+
+
+-- -----ADD A NEW COLUMN FOR THE DAY_NAME--------------------------------------------------------
+
+ALTER TABLE sales
+ADD COLUMN Day_Name VARCHAR (20);
+
+-- UPDATE THE NEW COLUMN WITH THE DAY NAME------------------------------------------------------
+
+UPDATE sales
+SET Day_Name = DAYNAME(Date);
+
+
+-- --ADD A NEW COLUMN FOR THE MONTH_NAME------------------------------------------------------
+
+ALTER TABLE sales
+ADD COLUMN Month_Name VARCHAR (20);
+
+-- UPDATE THE NEW COLUMN WITH THE MONTH NAME-----------------------------------------
+
+UPDATE sales
+SET Month_Name = MONTHNAME(Date);
+
+
+-- -------------------EXPLORATORY DATA ANALYSIS (EDA) ---------------------------------
+-- -------------------GENERIC QUESTIONs ------------------------------------------------
+-- ---1.--------------How many cities does Walmart operates in?------------------------
+
+SELECT DISTINCT (City)
+FROM sales;
+
+SELECT COUNT(DISTINCT (City)) AS No_of_Cities
+FROM sales;
+
+-- ---2.---------------In which city is each branch located?---------------------------
+
+SELECT DISTINCT City, Branch
+FROM sales;
+
+-- --------------------PRODUCT QUESTIONS-----------------------------------------------
+
+-- --1-----------------HOW MANY UNIQUE PRODUCT LINES DOES THE DATA HAVE?---------------
+
+SELECT DISTINCT(Product_Line)
+FROM sales;
+SELECT COUNT(DISTINCT(Product_Line)) No_of_Unique_Product_Lines
+FROM sales;
+
+-- 2------------------WHAT IS THE MOST COMMON PAYMENT METHOD?-------------------------
+
+SELECT Payment_Method,COUNT(Payment_Method) AS Frequency_of_Method
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+-- ---3-------------WHAT IS THE MOST SELLING PRODUCT LINE?--------------------------
+
+SELECT Product_Line, COUNT(Product_Line) AS Count_of_Product_Line
+FROM sales
+GROUP BY Product_Line
+ORDER BY 2 DESC;
+
+
+-- ---4------------WHAT IS THE TOTAL REVENUE BY MONTH?-----------------------------
+SELECT Month_Name, SUM(Total) AS Total_Revenue
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+-- ---5----------WHAT MONTH HARD THE LARGEST COGS?----------------------------------------------------
+-- --------------COST OF GOODS SOLD (COG)-------------------------------------------------------------
+SELECT Month_Name, SUM(Cogs) AS No_of_Cogs
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+-- REVENUE HAS A POSITIVE CORRELATION WITH THE COGS
+
+-- ---6------------WHAT PRODUCT LINE HAD THE LARGEST REVENEUE?----------------------------------------
+SELECT Product_Line, SUM(Total) AS Total_Revenue
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+-- ---7------------WHAT CITY HAD THE LARGEST REVENEUE?------------------------------------------------
+SELECT Branch, City, SUM(Total) AS Total_Revenue
+FROM sales
+GROUP BY 1,2
+ORDER BY 3 DESC;
+
+-- ---8-----------WHAT PRODUCT LINE HAD THE LARGEST VAT?-------------------------------------------------
+SELECT Product_Line, SUM(Vat) AS Total_Vat
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT Product_Line, AVG (Vat) AS Avg_Tax
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+-- ---9--------------OUTPUT EACH PRODUCT LINE AND A CORRESPONDING CHARACTERISTICS OF SALES---------------
+-- -----------------"GOOD", "BAD"------------------------------------------------------------------------
+-- -----------------"GOOD" IF IT IS GREATER THAN AVERAGE SALES-------------------------------------------
+-- -----------------"BAD" IF IT IS LOWER THAN AVERAGE SALES----------------------------------------------
+
+
+SELECT Product_Line, ROUND(SUM(Total),2) AS Total_Sales,
+CASE
+WHEN SUM(Total) > AVG(Total) THEN 'Good'
+ELSE 'Bad'
+END AS Status_of_Sales
+FROM Sales
+GROUP BY Product_Line
+ORDER BY 2 DESC;
+
+-- ----------Alternatively, Using CTE-------------------------------------------------------------------
+
+WITH CTE_Sub_Table AS (
+SELECT ROUND(AVG(Total),2) Avg_Total_Sales
+FROM Sales
+)
+
+SELECT Product_Line, ROUND(SUM(Total),2) AS Total_Sales,ROUND(AVG(Total),2) AS Avg_Sales, 
+CASE
+WHEN AVG(Total) > (SELECT * FROM CTE_Sub_Table) THEN 'Good'
+ELSE 'Bad'
+END AS Status_of_Sales
+FROM Sales
+GROUP BY Product_Line
+ORDER BY 2 DESC;
+
+
+
+
+-- ---10--------"WHICH BRANCH SOLD MORE PRODUCTS THAN AVERAGE PRODUCT SOLD?-----------------------------
+
+SELECT Branch, SUM(Quantity) AS Qty
+FROM sales
+GROUP BY 1
+HAVING SUM(Quantity) > (SELECT AVG (Quantity) FROM sales)
+ORDER BY 2 DESC;
+
+
+-- ---11-------------------WHAT IS THE COMMON PRODUCT LINE BY GENDER-----------------------------------
+SELECT Gender, Product_Line, COUNT(Gender) AS Total_Gender  
+FROM sales
+GROUP BY 1,2
+ORDER BY 3 DESC;
+
+SELECT Product_Line, Gender, COUNT(Product_Line) AS No_of_Product_Line
+FROM sales
+GROUP BY 1,2
+ORDER BY 3 DESC;
+
+-- ---12---------------------WHAT IS THE AVERAGE RATING OF EACH PRODUCT LINE?--------------------------
+SELECT Product_Line, AVG(Rating) AS Avg_Rating
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+
+-- ---------------------------------------------------------------------------------------------------
+-- ---------------------------SALES ANALYSIS----------------------------------------------------------
+
+-- ---1----------------------NO OF SALES MADE IN EACH TIME OF THE DAY PER WEEKDAY-------------------
+
+SELECT Time_of_Day, COUNT(*) AS No_of_sales
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+-- --ALTERNATIVELY---
+SELECT Time_of_Day, COUNT(*) AS No_of_sales
+FROM sales
+WHERE Day_Name = "Saturday"
+GROUP BY 1
+ORDER BY 2 DESC;
+-- Customers prefer to shop in the evening on a daily basis----------------------------------
+-- except on Wednesday's and Friday's, they shop mostly in the Afternoon--------------------
+
+
+-- ---2-----------WHICH CUSTOMER TYPES BRING THE MOST REVENUE?------------------------------
+
+SELECT Customer_Type, SUM(Total) AS Total_Revenue
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+-- ---3---------WHICH CITY HAS THE LARGEST TAX PERCENT / VAT (VALUED ADDED TAX)?------------
+SELECT Branch, City, AVG(Vat) AS Tax_Percent
+FROM sales
+GROUP BY 1,2
+ORDER BY 3 DESC;
+
+-- ---4---------WHICH CUSTOMER TYPE PAY THE MOST TAX PERCENT / VAT (VALUED ADDED TAX)?------------
+SELECT Customer_Type, AVG(Vat) AS Tax_Percent
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+
+-- ------------------------------------------------------------------------------------------------
+-- ----------------------CUSTOMER ANALYSIS---------------------------------------------------------
+
+-- ---1---------HOW MANY UNIQUE CUSTOMER TYPES DOES THE DATA HAVE?--------------------------------
+
+SELECT DISTINCT Customer_Type
+FROM sales;
+
+SELECT Customer_Type, COUNT(*) AS No_of_Customer
+FROM sales
+GROUP BY 1;
+
+SELECT COUNT(Customer_Type) AS Total_of_Customers
+FROM sales;
+
+
+-- ---2---------HOW MANY UNIQUE PAYMENT METHODS DOES THE DATA HAVE?--------------------------------
+
+SELECT DISTINCT Payment_Method
+FROM sales;
+
+SELECT Payment_Method, COUNT(*) AS No_of_Payment_Methods
+FROM sales
+GROUP BY 1; 
+
+-- ---3---------WHAT IS THE MOST CUSTOMER TYPE?----------------------------------------------------
+
+SELECT Customer_Type, COUNT(*) AS No_of_Customer
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+-- ---4--------WHICH CUSTOMER TYPE BOUGHT THE MOST?------------------------------------------------
+
+SELECT Customer_Type, COUNT(*) AS No_of_Purchases
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT Customer_Type, SUM(Quantity) AS No_of_Purchases
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+-- ---5--------WHAT IS THE GENDER OF MOST OF THE CUSTOMERS?----------------------------------------
+SELECT Gender, COUNT(Gender) Total_Gender
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT Gender, COUNT(*) Total_Gender
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+
+-- ---6--------WHAT IS THE GENDER DISTRIBUTION PER BRANCH?----------------------------------------
+
+SELECT Branch, Gender, COUNT(Gender) Total_Gender
+FROM sales
+GROUP BY 1,2
+ORDER BY 1 DESC;
+
+SELECT Branch, Gender, COUNT(*) Total_Gender
+FROM sales
+GROUP BY 1,2
+ORDER BY 1 DESC;
+-- ---INDIVIDUAL BRANCH BREAK-DOWN USING THE WHERE CLAUSE-------------------
+SELECT Gender, COUNT(*) Total_Gender
+FROM sales
+WHERE Branch = "C"
+GROUP BY 1
+ORDER BY 2 DESC;
+-- ---7--------WHICH TIME OF THE DAY DO CUSTOMERS GIVE MOST RATINGS?------------------------------
+
+SELECT Time_of_Day, AVG(Rating) AS Avg_Rating
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+-- ---8-------WHICH TIME OF THE DAY DO CUSTOMERS GIVE MOST RATINGS PER BRANCH?-------------------
+
+SELECT Branch, Time_of_Day, AVG(Rating) AS Avg_Rating
+FROM sales
+GROUP BY 1,2
+ORDER BY 3 DESC;
+
+-- ---INDIVIDUAL BRANCH BREAK-DOWN USING THE WHERE CLAUSE-------------------
+SELECT Time_of_Day, AVG(Rating) AS Avg_Rating
+FROM sales
+WHERE Branch = "C"
+GROUP BY 1
+ORDER BY 2 DESC;
+
+-- ---9------WHICH DAY OF THE WEEK HAS THE BEST AVG RATINGS?-------------------------------------
+
+SELECT Day_Name, AVG(Rating) AS Avg_Rating
+FROM sales
+GROUP BY 1
+ORDER BY 2 DESC;
+
+-- ---10-----WHICH DAY OF THE WEEK HAS THE BEST AVG RATINGS PER BRANCH?
+
+SELECT Day_Name, AVG(Rating) AS Avg_Rating
+FROM sales
+WHERE Branch = "A"
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT Day_Name, AVG(Rating) AS Avg_Rating
+FROM sales
+WHERE Branch = "B"
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT Day_Name, AVG(Rating) AS Avg_Rating
+FROM sales
+WHERE Branch = "C"
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT Branch, Day_Name, AVG(Rating) AS Avg_Rating
+FROM sales
+GROUP BY 1,2
+ORDER BY 3 DESC;
