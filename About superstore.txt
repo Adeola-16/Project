@@ -1,0 +1,21 @@
+This project is about a superstore, that is ranked as one of the world’s largest suppliers of Bikes, clothing and accessories with over 2,000 retail stores across different countries worldwide. 
+
+despite the brand’s global presence and success, the company was faced with low patronage and revenues.
+
+As a data-analyst, I was contracted to join the Welup Digital Team as an Intern to carry out a thorough analysis of the dataset provided and come-up with insights on how to improve patronage, sales, and profit.
+
+
+A total of nine different datasets were provided as listed below:
+customer.csv, product-categories.csv, products.csv, product-subcategories.csv, returns.csv, territories.csv, sales-2015.csv, sales-2016.csv, sales-2017.csv.
+
+The metrics for the analysis are detailed below:
+
+1. Total Revenue actualized during the period.
+2. Total Profit actualized during the period.
+3. Total Return.
+4. Total quantities sold.
+5. What occupation of customers patronized Robbin’s company the most?
+6. Revenue by Customer Gender
+7. Revenue by Product category.
+8. Revenue by Region
+9. Sales trend
