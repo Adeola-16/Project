@@ -1,0 +1,374 @@
+Timestamp,Gender,Destination,"Time of Travel (Jan = 1, Dec = 12)",Type of Activity,Holiday with who?,Transportation
+02/11/2023 17:46,Female,Maldives,6,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Paris,6,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Paris,3,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Paris,12,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Monaco,12,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Male,Monaco,12,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Paris,3,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Berlin,7,Group,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Paris,5,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Paris,3,Individual,Travel with Friends,Hire a car
+02/11/2023 17:46,Male,Seychelles,6,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Male,Paris,11,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Paris,5,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Seychelles,5,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Seychelles,5,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Male,Paris,9,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Female,Paris,8,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Berlin,7,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Paris,8,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Maldives,3,Individual,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Paris,7,Group,Travel with Family,Train/public transport
+02/11/2023 17:46,Male,Maldives,9,Individual,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Seychelles,12,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Male,Paris,4,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Paris,7,Individual,Travel with Family,Bus
+02/11/2023 17:46,Male,Paris,2,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Maldives,10,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Paris,10,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Male,Paris,12,Individual,Travel Alone,Train/public transport
+02/11/2023 17:46,Female,Maldives,7,Individual,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Paris,10,Individual,Travel Alone,Train/public transport
+02/11/2023 17:46,Male,Paris,4,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Maldives,4,Individual,Travel Alone,Train/public transport
+02/11/2023 17:46,Male,Paris,7,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Seychelles,10,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Paris,7,Group,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Seychelles,5,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Paris,2,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Paris,11,Group,Travel with Family,Train/public transport
+02/11/2023 17:46,Female,Maldives,3,Group,Travel Alone,Train/public transport
+02/11/2023 17:46,Female,Paris,9,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Paris,6,Individual,Travel Alone,Train/public transport
+02/11/2023 17:46,Male,Paris,12,Individual,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Paris,12,Group,Travel with Friends,Train/public transport
+02/11/2023 17:46,Male,Maldives,4,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Maldives,12,Group,Travel with Family,Train/public transport
+02/11/2023 17:46,Male,Seychelles,4,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Paris,4,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Male,Paris,2,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Maldives,8,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Female,Paris,3,Individual,Travel Alone,Train/public transport
+02/11/2023 17:46,Male,Maldives,1,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Berlin,4,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Paris,12,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Paris,12,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Maldives,12,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Maldives,9,Group,Travel with Friends,Train/public transport
+02/11/2023 17:46,Female,Maldives,3,Individual,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Maldives,3,Group,Travel with Friends,Train/public transport
+02/11/2023 17:46,Male,Seychelles,12,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Female,Paris,1,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Maldives,6,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Paris,3,Group,Travel with Family,Bus
+02/11/2023 17:46,Male,Maldives,7,Individual,Travel with Friends,Hire a car
+02/11/2023 17:46,Male,Monaco,6,Group,Travel with Friends,Bus
+02/11/2023 17:46,Female,Monaco,7,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Female,Maldives,12,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Female,Maldives,7,Individual,Travel Alone,Train/public transport
+02/11/2023 17:46,Female,Maldives,9,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Male,Monaco,4,Group,Travel Alone,Bus
+02/11/2023 17:46,Male,Berlin,5,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Paris,1,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Maldives,3,Group,Travel with Friends,Bus
+02/11/2023 17:46,Male,Paris,4,Individual,Travel with Family,Bus
+02/11/2023 17:46,Male,Monaco,3,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Paris,6,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Male,Berlin,5,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Maldives,6,Group,Travel with Friends,Train/public transport
+02/11/2023 17:46,Female,Berlin,7,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Maldives,12,Group,Travel with Family,Bus
+02/11/2023 17:46,Male,Paris,3,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Berlin,7,Individual,Travel Alone,Train/public transport
+02/11/2023 17:46,Male,Paris,3,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Maldives,10,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Paris,2,Individual,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Maldives,10,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Male,Paris,8,Individual,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Seychelles,12,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Maldives,4,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Berlin,12,Group,Travel with Friends,Bus
+02/11/2023 17:46,Female,Paris,12,Individual,Travel with Friends,Bus
+02/11/2023 17:46,Male,Seychelles,10,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Monaco,7,Individual,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Paris,1,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Paris,5,Individual,Travel Alone,Train/public transport
+02/11/2023 17:46,Male,Paris,8,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Paris,3,Individual,Travel with Friends,Hire a car
+02/11/2023 17:46,Male,Maldives,8,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Paris,7,Individual,Travel Alone,Bus
+02/11/2023 17:46,Male,Paris,4,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Male,Berlin,3,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Monaco,2,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Paris,6,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Berlin,6,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Seychelles,6,Individual,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Paris,3,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Paris,1,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Maldives,3,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Female,Maldives,4,Individual,Travel Alone,Train/public transport
+02/11/2023 17:46,Female,Paris,3,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Berlin,8,Group,Travel with Friends,Hire a car
+02/11/2023 17:46,Female,Maldives,7,Individual,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Monaco,8,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Maldives,6,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Male,Paris,4,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Female,Paris,12,Group,Travel with Friends,Train/public transport
+02/11/2023 17:46,Male,Paris,10,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Maldives,8,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Seychelles,4,Individual,Travel with Friends,Train/public transport
+02/11/2023 17:46,Female,Paris,5,Individual,Travel Alone,Hire a car
+02/11/2023 17:46,Female,Paris,6,Group,Travel with Family,Hire a car
+02/11/2023 17:46,Male,Berlin,5,Group,Travel with Family,Train/public transport
+02/11/2023 17:47,Female,Seychelles,9,Group,Travel with Family,Bus
+02/11/2023 17:47,Male,Paris,7,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Male,Paris,2,Individual,Travel with Family,Hire a car
+02/11/2023 17:47,Male,Paris,7,Individual,Travel with Family,Train/public transport
+02/11/2023 17:47,Male,Monaco,6,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Female,Paris,3,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Male,Paris,12,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Female,Monaco,6,Individual,Travel Alone,Train/public transport
+02/11/2023 17:47,Male,Maldives,12,Individual,Travel with Family,Hire a car
+02/11/2023 17:47,Female,Paris,1,Group,Travel with Family,Train/public transport
+02/11/2023 17:47,Male,Maldives,4,Group,Travel Alone,Hire a car
+02/11/2023 17:47,Female,Seychelles,10,Group,Travel with Friends,Hire a car
+02/11/2023 17:47,Female,Maldives,10,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Female,Maldives,4,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Male,Paris,5,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Female,Maldives,2,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Male,Monaco,6,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Male,Maldives,12,Individual,Travel with Family,Hire a car
+02/11/2023 17:47,Female,Maldives,10,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Female,Paris,12,Individual,Travel Alone,Train/public transport
+02/11/2023 17:47,Female,Paris,3,Individual,Travel Alone,Bus
+02/11/2023 17:47,Female,Paris,8,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Male,Paris,3,Group,Travel Alone,Train/public transport
+02/11/2023 17:47,Male,Berlin,7,Individual,Travel with Friends,Hire a car
+02/11/2023 17:47,Female,Paris,6,Group,Travel with Friends,Bus
+02/11/2023 17:47,Male,Paris,6,Individual,Travel Alone,Train/public transport
+02/11/2023 17:47,Female,Maldives,5,Individual,Travel Alone,Train/public transport
+02/11/2023 17:47,Female,Paris,6,Group,Travel with Family,Train/public transport
+02/11/2023 17:47,Female,Maldives,2,Individual,Travel with Family,Train/public transport
+02/11/2023 17:47,Male,Monaco,10,Individual,Travel Alone,Bus
+02/11/2023 17:47,Female,Paris,12,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Female,Maldives,3,Individual,Travel Alone,Train/public transport
+02/11/2023 17:47,Female,Seychelles,4,Group,Travel with Friends,Train/public transport
+02/11/2023 17:47,Male,Maldives,9,Individual,Travel with Family,Train/public transport
+02/11/2023 17:47,Male,Maldives,5,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Male,Paris,3,Group,Travel with Friends,Hire a car
+02/11/2023 17:47,Female,Seychelles,7,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Male,Maldives,4,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Male,Paris,6,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Male,Paris,1,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Male,Monaco,4,Individual,Travel with Family,Bus
+02/11/2023 17:47,Male,Maldives,8,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Male,Paris,1,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Female,Monaco,5,Group,Travel Alone,Hire a car
+02/11/2023 17:47,Male,Paris,10,Group,Travel with Friends,Hire a car
+02/11/2023 17:47,Female,Paris,4,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Female,Monaco,10,Individual,Travel Alone,Train/public transport
+02/11/2023 17:47,Female,Paris,5,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Female,Maldives,7,Group,Travel with Friends,Bus
+02/11/2023 17:47,Female,Seychelles,5,Group,Travel with Friends,Hire a car
+02/11/2023 17:47,Male,Maldives,12,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Male,Paris,3,Individual,Travel with Family,Bus
+02/11/2023 17:47,Female,Paris,4,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Male,Monaco,8,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Male,Berlin,4,Group,Travel with Family,Bus
+02/11/2023 17:47,Male,Paris,7,Individual,Travel Alone,Train/public transport
+02/11/2023 17:47,Female,Maldives,6,Group,Travel with Friends,Hire a car
+02/11/2023 17:47,Female,Paris,7,Group,Travel with Family,Train/public transport
+02/11/2023 17:47,Male,Paris,5,Group,Travel with Family,Train/public transport
+02/11/2023 17:47,Male,Paris,9,Individual,Travel Alone,Train/public transport
+02/11/2023 17:47,Male,Monaco,10,Individual,Travel with Friends,Train/public transport
+02/11/2023 17:47,Female,Maldives,7,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Female,Seychelles,4,Individual,Travel with Family,Hire a car
+02/11/2023 17:47,Female,Paris,7,Individual,Travel Alone,Train/public transport
+02/11/2023 17:47,Male,Paris,4,Group,Travel with Family,Train/public transport
+02/11/2023 17:47,Male,Monaco,12,Group,Travel with Family,Bus
+02/11/2023 17:47,Male,Monaco,2,Individual,Travel Alone,Train/public transport
+02/11/2023 17:47,Male,Paris,5,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Female,Maldives,6,Group,Travel with Family,Train/public transport
+02/11/2023 17:47,Female,Paris,2,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Male,Monaco,1,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Female,Paris,1,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Male,Maldives,12,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Female,Monaco,5,Group,Travel with Friends,Hire a car
+02/11/2023 17:47,Female,Paris,12,Group,Travel with Friends,Hire a car
+02/11/2023 17:47,Male,Berlin,10,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Female,Paris,12,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Female,Maldives,9,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Female,Monaco,7,Individual,Travel with Family,Hire a car
+02/11/2023 17:47,Male,Monaco,5,Group,Travel with Family,Hire a car
+02/11/2023 17:47,Female,Paris,1,Group,Travel with Family,Bus
+02/11/2023 17:47,Male,Paris,11,Individual,Travel Alone,Train/public transport
+02/11/2023 17:47,Male,Paris,9,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Male,Paris,6,Individual,Travel Alone,Hire a car
+02/11/2023 17:47,Male,Paris,7,Individual,Travel Alone,Train/public transport
+02/11/2023 17:47,Male,Seychelles,7,Group,Travel with Friends,Hire a car
+02/11/2023 17:47,Female,Paris,7,Individual,Travel with Family,Hire a car
+02/11/2023 17:48,Male,Paris,5,Individual,Travel Alone,Hire a car
+02/11/2023 17:48,Male,Paris,3,Group,Travel with Friends,Train/public transport
+02/11/2023 17:48,Female,Paris,4,Individual,Travel Alone,Hire a car
+02/11/2023 17:48,Male,Paris,9,Individual,Travel with Friends,Hire a car
+02/11/2023 17:48,Male,Berlin,12,Individual,Travel with Family,Bus
+02/11/2023 17:48,Female,Paris,12,Group,Travel with Family,Hire a car
+02/11/2023 17:48,Male,Monaco,9,Group,Travel with Family,Hire a car
+02/11/2023 17:48,Female,Maldives,3,Group,Travel with Friends,Hire a car
+02/11/2023 17:48,Male,Maldives,5,Individual,Travel with Friends,Train/public transport
+02/11/2023 17:48,Male,Paris,7,Group,Travel with Family,Hire a car
+02/11/2023 17:48,Male,Paris,12,Individual,Travel Alone,Hire a car
+02/11/2023 17:48,Female,Maldives,12,Group,Travel with Friends,Train/public transport
+02/11/2023 17:48,Male,Seychelles,6,Individual,Travel with Family,Hire a car
+02/11/2023 17:48,Male,Paris,9,Individual,Travel Alone,Hire a car
+02/11/2023 17:48,Male,Maldives,9,Individual,Travel Alone,Hire a car
+02/11/2023 17:48,Male,Paris,4,Individual,Travel with Family,Train/public transport
+02/11/2023 17:48,Male,Paris,9,Individual,Travel with Family,Hire a car
+02/11/2023 17:49,Male,Monaco,11,Group,Travel Alone,Bus
+02/11/2023 17:49,Female,Paris,2,Individual,Travel with Family,Hire a car
+02/11/2023 17:49,Male,Monaco,5,Group,Travel with Family,Bus
+02/11/2023 17:49,Female,Paris,12,Group,Travel with Family,Train/public transport
+02/11/2023 17:49,Female,Maldives,12,Individual,Travel Alone,Hire a car
+02/11/2023 17:49,Female,Paris,9,Individual,Travel with Family,Hire a car
+02/11/2023 17:50,Female,Maldives,7,Group,Travel with Family,Hire a car
+02/11/2023 17:53,Female,Paris,10,Individual,Travel Alone,Hire a car
+02/11/2023 18:00,Female,Seychelles,4,Individual,Travel Alone,Hire a car
+02/11/2023 18:04,Male,Maldives,12,Group,Travel with Friends,Hire a car
+02/11/2023 18:33,Male,Maldives,12,Individual,Travel with Friends,Hire a car
+02/11/2023 18:41,Male,Paris,7,Group,Travel with Family,Hire a car
+02/11/2023 18:58,Male,Seychelles,12,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Seychelles,10,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Paris,12,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Maldives,12,Individual,Travel Alone,Train/public transport
+02/11/2023 19:14,Male,Paris,2,Group,Travel with Family,Bus
+02/11/2023 19:14,Female,Paris,7,Group,Travel with Family,Train/public transport
+02/11/2023 19:14,Female,Paris,2,Individual,Travel Alone,Train/public transport
+02/11/2023 19:14,Male,Paris,5,Group,Travel with Family,Train/public transport
+02/11/2023 19:14,Female,Maldives,4,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Berlin,7,Individual,Travel Alone,Bus
+02/11/2023 19:14,Female,Paris,12,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Monaco,7,Individual,Travel Alone,Bus
+02/11/2023 19:14,Female,Seychelles,8,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Female,Maldives,6,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Maldives,7,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Maldives,12,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Female,Monaco,12,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Seychelles,9,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Female,Maldives,12,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Female,Maldives,12,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Maldives,5,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Maldives,8,Group,Travel with Family,Train/public transport
+02/11/2023 19:14,Female,Paris,12,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Monaco,5,Individual,Travel Alone,Train/public transport
+02/11/2023 19:14,Male,Paris,12,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Seychelles,8,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Male,Paris,8,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Paris,5,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Male,Paris,4,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Female,Maldives,12,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Seychelles,10,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Paris,4,Individual,Travel with Family,Train/public transport
+02/11/2023 19:14,Female,Paris,12,Individual,Travel Alone,Train/public transport
+02/11/2023 19:14,Female,Paris,4,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Female,Paris,7,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Maldives,12,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Female,Paris,12,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Paris,10,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Female,Paris,12,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Paris,5,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Seychelles,7,Individual,Travel with Friends,Hire a car
+02/11/2023 19:14,Female,Seychelles,5,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Female,Paris,12,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Female,Seychelles,1,Group,Travel with Friends,Bus
+02/11/2023 19:14,Male,Maldives,4,Individual,Travel with Friends,Hire a car
+02/11/2023 19:14,Male,Maldives,12,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Maldives,6,Group,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Maldives,1,Group,Travel Alone,Train/public transport
+02/11/2023 19:14,Female,Seychelles,7,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Berlin,2,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Male,Maldives,12,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Seychelles,12,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Female,Paris,3,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Maldives,7,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Male,Monaco,7,Individual,Travel Alone,Bus
+02/11/2023 19:14,Female,Monaco,6,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Female,Paris,12,Individual,Travel with Friends,Train/public transport
+02/11/2023 19:14,Male,Monaco,6,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Monaco,4,Group,Travel Alone,Train/public transport
+02/11/2023 19:14,Female,Paris,7,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Paris,4,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Seychelles,3,Individual,Travel Alone,Train/public transport
+02/11/2023 19:14,Male,Maldives,7,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Maldives,8,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Female,Paris,12,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Monaco,6,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Berlin,7,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Female,Seychelles,12,Group,Travel Alone,Train/public transport
+02/11/2023 19:14,Female,Seychelles,7,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Male,Paris,12,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Paris,12,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Monaco,5,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Paris,12,Individual,Travel with Friends,Hire a car
+02/11/2023 19:14,Male,Paris,12,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Maldives,10,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Female,Maldives,7,Group,Travel with Family,Bus
+02/11/2023 19:14,Female,Paris,12,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Male,Paris,12,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Paris,7,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Seychelles,12,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Paris,12,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Female,Maldives,12,Group,Travel with Family,Train/public transport
+02/11/2023 19:14,Female,Paris,12,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Seychelles,7,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Paris,6,Group,Travel with Family,Train/public transport
+02/11/2023 19:14,Female,Seychelles,2,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Paris,4,Group,Travel with Family,Train/public transport
+02/11/2023 19:14,Male,Berlin,7,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Paris,12,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Maldives,7,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Paris,6,Group,Travel with Family,Train/public transport
+02/11/2023 19:14,Male,Berlin,6,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Maldives,12,Group,Travel with Friends,Hire a car
+02/11/2023 19:14,Female,Maldives,12,Group,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Berlin,9,Individual,Travel with Family,Bus
+02/11/2023 19:14,Male,Paris,3,Individual,Travel with Family,Train/public transport
+02/11/2023 19:14,Female,Maldives,12,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Maldives,12,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Male,Berlin,4,Individual,Travel Alone,Train/public transport
+02/11/2023 19:14,Female,Maldives,12,Group,Travel with Family,Train/public transport
+02/11/2023 19:14,Female,Seychelles,7,Individual,Travel with Family,Train/public transport
+02/11/2023 19:14,Female,Paris,12,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Paris,12,Individual,Travel with Family,Hire a car
+02/11/2023 19:14,Female,Paris,2,Individual,Travel Alone,Hire a car
+02/11/2023 19:14,Male,Maldives,4,Group,Travel with Friends,Train/public transport
+02/11/2023 19:14,Male,Seychelles,12,Group,Travel with Friends,Train/public transport
+02/11/2023 19:15,Male,Paris,6,Individual,Travel Alone,Bus
+02/11/2023 19:15,Female,Seychelles,12,Group,Travel with Friends,Bus
+02/11/2023 19:15,Female,Paris,3,Group,Travel with Family,Train/public transport
+02/11/2023 19:15,Male,Berlin,12,Individual,Travel with Family,Hire a car
+02/11/2023 19:15,Female,Paris,8,Individual,Travel with Family,Train/public transport
+02/11/2023 19:15,Female,Maldives,12,Group,Travel with Friends,Hire a car
+02/11/2023 19:15,Male,Berlin,12,Individual,Travel Alone,Train/public transport
+02/11/2023 19:15,Female,Paris,7,Individual,Travel Alone,Hire a car
+02/11/2023 19:15,Female,Monaco,3,Group,Travel with Friends,Train/public transport
+02/11/2023 19:15,Male,Monaco,4,Individual,Travel Alone,Hire a car
+02/11/2023 19:15,Male,Paris,6,Individual,Travel with Family,Hire a car
+02/11/2023 19:15,Male,Paris,8,Individual,Travel with Family,Hire a car
+02/11/2023 19:15,Male,Seychelles,2,Individual,Travel with Family,Bus
+02/11/2023 19:15,Male,Berlin,8,Group,Travel with Family,Bus
+02/11/2023 19:15,Female,Berlin,7,Individual,Travel Alone,Hire a car
+02/11/2023 19:15,Male,Paris,7,Individual,Travel with Family,Hire a car
+02/11/2023 19:15,Male,Paris,6,Group,Travel with Family,Hire a car
+02/11/2023 19:15,Female,Paris,10,Group,Travel with Family,Hire a car
+02/11/2023 19:15,Female,Maldives,9,Individual,Travel with Friends,Bus
+02/11/2023 19:15,Male,Maldives,12,Group,Travel with Family,Hire a car
+02/11/2023 19:15,Female,Maldives,1,Individual,Travel Alone,Hire a car
+02/11/2023 19:15,Male,Seychelles,12,Individual,Travel with Family,Hire a car
+02/11/2023 19:16,Female,Paris,7,Individual,Travel with Family,Hire a car
+02/11/2023 19:16,Male,Paris,8,Individual,Travel with Family,Hire a car
+02/11/2023 19:16,Male,Seychelles,5,Individual,Travel Alone,Train/public transport
+02/11/2023 19:16,Male,Paris,4,Individual,Travel Alone,Hire a car
+02/11/2023 19:16,Female,Paris,5,Group,Travel with Family,Train/public transport
+02/11/2023 19:22,Female,Paris,7,Group,Travel with Family,Hire a car
+02/11/2023 20:34,Female,Maldives,12,Individual,Travel with Family,Hire a car
