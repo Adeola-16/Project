@@ -1,0 +1,33 @@
+SQL PROJECT
+
+This project is about a business entity that deals in edible goods.
+
+I was provided with the sales database and the schema diagram that detailed the relationships amongst the the tables in the database.
+
+As the Data Analyst, I was tasked with the following: 
+
+Task 1:
+
+The company wants to reward its Sales Representatives staff only. For this to happen, we would need to know the staff name, the total amount of money the staff has handled during a customer transaction and the department this staff belongs to. (Remember, we want just the sales Rep staff).
+
+Please, help the Finance department to generate a summary table that shows the full name (last + first name combined), the total amount of transaction, and the title of these employees.
+
+Put this output in a view.
+
+Task 2:
+
+The board of directors are interested in seeing the volume of transactions this business has made. Your mission: In the operation year, give a breakdown of the total number of orders by year and by month.
+
+Task 3:
+
+The company is doing well in terms of revenue. The directors are planning to expand their customer base in some countries. Generate a ranked table from the customers table that displays the customer id, company name, city, country, total quantity, and the ranked value.
+This rank table should be partitioned by country.
+
+Task 4:
+
+There have been some concerns with some of our suppliers. The management would like to know the MVP (most valuable players) suppliers and the ones that can be replaced.
+Return a table that shows the name of the company, the contact’s name and the average quantity these companies have done for the company.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please, put all your queries in one script.
+
