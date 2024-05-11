@@ -1,0 +1,17 @@
+CREATE TABLE sales 
+(
+	sales_id VARCHAR (10),
+	sales_rep VARCHAR (25),
+	email VARCHAR (50),
+	brands VARCHAR (50),
+	plant_cost DECIMAL (10,2),
+	unit_price DECIMAL (10,2),
+	quantity INT,
+	costs DECIMAL (10,2),
+	profit DECIMAL (10,2),
+	countries VARCHAR (100),
+	region VARCHAR (100),
+	months VARCHAR (50),
+	years INT
+	
+)
