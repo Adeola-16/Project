@@ -1,0 +1,22 @@
+CREATE TABLE NashvilleHousing
+(
+	UniqueID INT NULL,
+	ParcelID varchar(255) NULL,
+	LandUse varchar(255) NULL,
+	PropertyAddress varchar(255) NULL,
+	SaleDate TIMESTAMP NULL,
+	SalePrice DECIMAL (10,2) NULL,
+	LegalReference varchar(255) NULL,
+	SoldAsVacant varchar(255) NULL,
+	OwnerName varchar(255) NULL,
+	OwnerAddress varchar(255) NULL,
+	Acreage float NULL,
+	TaxDistrict varchar(255) NULL,
+	LandValue DECIMAL (10,2) NULL,
+	BuildingValue DECIMAL (10,2) NULL,
+	TotalValue DECIMAL (10,2) NULL,
+	YearBuilt INT NULL,
+	Bedrooms INT NULL,
+	FullBath INT NULL,
+	HalfBath INT NULL
+) ;
