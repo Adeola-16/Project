@@ -1,0 +1,30 @@
+SELECT OwnerAddress
+FROM nash
+
+--Understanding how CHARINDEX works.
+
+--CHARINDX is used to extract the position of a substring--
+
+SELECT OwnerAddress,
+CHARINDEX(',',OwnerAddress,1) Position_of_first_comma,
+CHARINDEX(',',OwnerAddress,CHARINDEX(',',OwnerAddress)+1) Position_of_second_comma,
+CHARINDEX(',',OwnerAddress,CHARINDEX(',',OwnerAddress)+1) - CHARINDEX(',',OwnerAddress) length_btw_1st_and_2nd_comma
+FROM nash
+
+--Combining SUBSTRING and CHARINDEX 
+
+SELECT OwnerAddress,
+SUBSTRING(OwnerAddress,1,CHARINDEX(',',OwnerAddress)-1) Address,
+SUBSTRING(OwnerAddress,CHARINDEX(',',OwnerAddress)+1,(CHARINDEX(',',OwnerAddress,CHARINDEX(',',OwnerAddress)+1)-CHARINDEX(',',OwnerAddress))-1) City,
+SUBSTRING(OwnerAddress,CHARINDEX(',',OwnerAddress,CHARINDEX(',',OwnerAddress)+1)+1,LEN(OwnerAddress)) State
+FROM nash
+
+
+
+--Illustrating CHARINDEX without a table
+
+SELECT  '58/4 Muirhouse Gardens, Edinburgh, Scotland' Address,
+CHARINDEX(',','58/4 Muirhouse Gardens, Edinburgh, Scotland',1) Position_of_first_comma,
+CHARINDEX(',','58/4 Muirhouse Gardens, Edinburgh, Scotland',CHARINDEX(',','58/4 Muirhouse Gardens, Edinburgh, Scotland')+1) Position_of_second_comma
+
+ 
